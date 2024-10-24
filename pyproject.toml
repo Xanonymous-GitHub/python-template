@@ -1,0 +1,12 @@
+[project]
+name = "python_project"
+version = "0.1.0"
+description = "A Python project"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[all]>=0",
+    "numpy>=2",
+    "plotly>=5",
+    "polars>=1",
+]
