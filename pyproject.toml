@@ -10,3 +10,8 @@ dependencies = [
     "plotly>=5",
     "polars>=1",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9",
+]
